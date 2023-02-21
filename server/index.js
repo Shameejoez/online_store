@@ -16,7 +16,7 @@ app.use(fileUpload({}))
 app.use('/api', router)
 
 
-// обработка ошибок - последний Middleware.
+// обработка ошибок - последний Middleware.-----
 app.use(errorHandler)
 
 
